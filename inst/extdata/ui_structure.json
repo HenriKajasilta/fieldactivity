@@ -427,15 +427,15 @@
                   "choices" : "OMCD"
                 },
                 
-                "fert_animal" : {
-                  "condition" : "input.organic_material == 'RE003' | input.organic_material == 'RE004'",
+                //"fert_animal" : {
+                  //"condition" : "input.organic_material == 'RE003' | input.organic_material == 'RE004'",
                   
-                  "animal_fert_usage" : {
-                    "code_name" : "animal_fert_usage",
-                    "type" : "textInput",
-                    "label" : "animal_fert_usage_label",
-                    "placeholder" : "animal_fert_usage_placeholder"
-                  }
+                "animal_fert_usage" : {
+                  "code_name" : "animal_fert_usage",
+                  "type" : "textInput",
+                  "label" : "animal_fert_usage_label",
+                  "placeholder" : "animal_fert_usage_placeholder"
+                  //}
                 },
 
                 "org_matter_moisture_conc" : {
@@ -555,7 +555,7 @@
               "hide_in_event_list" : true
             },
             
-              "N_in_soluble_fertilizer" : {
+            "N_in_soluble_fertilizer" : {
               "code_name" : "N_in_soluble_fertilizer",
               "type" : "numericInput",
               "label" : "N_in_soluble_fertilizer_label",
